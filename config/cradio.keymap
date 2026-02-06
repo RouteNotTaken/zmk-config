@@ -69,14 +69,14 @@
         sym_layer {
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
-        //│  `       │  %       │  &       │  #       │  \       │   │          │  {       │  (       │  )       │          │
-            &kp GRAVE   &kp PRCNT  &kp AMPS   &kp HASH   &kp BSLH        &trans    &kp LBRC   &kp LPAR   &kp RPAR   &trans
+        //│  `       │  %       │  &       │  #       │  &       │   │          │  {       │  (       │  )       │          │
+            &kp GRAVE   &kp PRCNT  &kp AMPS   &kp HASH   &kp AMPS        &trans    &kp LBRC   &kp LPAR   &kp RPAR   &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  !       │  -       │  :       │  =       │  |       │   │          │  gui     │  alt     │  ctrl    │  shift   │
             &kp EXCL   &kp MINUS   &kp COLON  &kp EQUAL  &kp PIPE      &trans    &kp LGUI    &kp LALT   &kp LCTRL  &kp LSHFT
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│   ^      │  _       │  *       │  $       │          │   │          │  }       │  [       │  ]       │          │
-            &kp CARET   &kp UNDER  &kp ASTRK  &kp DLLR   &trans         &trans    &kp RBRC  &kp LBKT   &kp RBKT   &trans
+        //│   ^      │  _       │  *       │  $       │  \       │   │          │  }       │  [       │  ]       │          │
+            &kp CARET   &kp UNDER  &kp ASTRK  &kp DLLR   &kp BSLH         &trans    &kp RBRC  &kp LBKT   &kp RBKT   &trans
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &kp ESC     &trans         &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
