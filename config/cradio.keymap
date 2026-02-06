@@ -69,8 +69,8 @@
         sym_layer {
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
-        //│  `       │  %       │  &       │  #       │  &       │   │          │  {       │  (       │  )       │          │
-            &kp GRAVE   &kp PRCNT  &kp AMPS   &kp HASH   &kp AMPS        &trans    &kp LBRC   &kp LPAR   &kp RPAR   &trans
+        //│  `       │  %       │  &       │  #       │  @       │   │          │  {       │  (       │  )       │          │
+            &kp GRAVE   &kp PRCNT  &kp AMPS   &kp HASH   &kp AT        &trans    &kp LBRC   &kp LPAR   &kp RPAR   &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  !       │  -       │  :       │  =       │  |       │   │          │  gui     │  alt     │  ctrl    │  shift   │
             &kp EXCL   &kp MINUS   &kp COLON  &kp EQUAL  &kp PIPE      &trans    &kp LGUI    &kp LALT   &kp LCTRL  &kp LSHFT
